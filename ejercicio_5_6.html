@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Grillas</title>
+	<style type="text/css">
+
+*{margin:0;}
+.contenido{
+	width: 52%;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+    text-align: center;
+    height: 560px;
+}
+.titulo-1{
+	width:100%;
+	margin:0 auto;
+	padding: 50px 0 50px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+
+	}		
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding: 20px 0 50px 0;
+
+}
+img{
+	width:100%;
+}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.row{
+   clear:both;
+}
+.col-md-1, .col-md-2, .col-md-3,.col-sm-1, .col-sm-2, .col-sm-3{
+float:left;
+}
+.col-md-1{width:30%;}
+.col-md-2{width:50%;}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ .col-md-1{
+	width:29%;
+}	
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding: 0 0 0 6px;
+
+}
+h1 {font-size: 14vh;}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+  
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+ .col-md-1{
+	width:28%;
+}	
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding: 0 0 0 6px;
+
+}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+	font-size:1vh;
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+  
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+
+ .col-md-1{
+	width:29%;
+}	
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding:0 0 0 16px;
+
+}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+	font-size: 4vh;
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.contenido{
+    height: 1218px;
+}
+ .col-md-1{
+	width:27%;
+}	
+.col-md-2{width:50%;}
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding:0 50px 0 75px;
+
+}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+  
+  
+}
+
+@media(max-width: 480px){
+.col-md-1{
+	width:27%;
+}	
+.grillas{
+	width:100%;
+	height:400px;
+	margin:0 auto;
+	padding:0;
+
+}
+p{
+	padding:20px 0 20px 0px;
+	text-align: left;
+}
+.box-1 {
+	float: left;
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+	<div class="contenido">
+
+		<div class="titulo-1">
+		<h1>Hola !!</h1>
+		<h2>Este es un ejercicio de grillas</h2>
+	   </div>
+
+<div class="grillas">
+	<div class="col-md-1 box-1 col-md-2">
+		<img src="images/pic_grilla.jpg">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	<div class="col-md-1 box-1 col-md-2">
+		<img src="images/pic_grilla.jpg">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	<div class="col-md-1 box-1 col-md-2">
+		<img src="images/pic_grilla.jpg">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	</div>
+	
+</div>
+
+	</div>
+</body>
+</html>
