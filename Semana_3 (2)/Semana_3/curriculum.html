@@ -19,22 +19,11 @@ body{
 .intro{
 	width:97%;
 	height:auto;
-	height: 1082px;
 	background-color:#fff;
 	text-align: center;
 	margin: 124px 20px 20px 20px;
 }
-.linea-t{
-	border-top:solid 1px #C1BFBF;
-	width:96%;
-	margin:0 auto;
-	padding: 10px 10px 20px 0;
-}
-.linea-b{
-	border-bottom:solid 1px #C1BFBF;
-	width:96%;
-	margin:0 auto;
-}	
+	
 .intro h1{
 	position:relative;
 	margin:0;
@@ -78,9 +67,7 @@ body{
 }
 span{color:#F94903}
 .span{color:#F94903}
-.titulo-educacion{
-	height: 34px;
-}
+
 .fecha h3{
     float: left;
     color: black;
@@ -97,13 +84,7 @@ span{color:#F94903}
 	margin: 7px;
 }
 
-.left{
-	float:left;
-}
-.bottom{
-	margin-bottom:25px;
-}
-.top{margin-top:20px;}
+
 .Acerca{
 	width:100%;
 	float:left;
@@ -111,6 +92,10 @@ span{color:#F94903}
 }
 .Educacion{
     float: left!important;
+}
+.experiencia{    
+	float: left;
+    margin: 20px 0 20px 0;
 }
 
 .contacto{
@@ -137,7 +122,7 @@ li{margin-left:41px;}
 .gris{
 	background-color:#F0F0F0;
 	padding:10px 10px 20px 10px;
-	margin: 30px 0 0 0;
+	border-radius: 9;
 }
 .columna {
   width: 100%;
@@ -156,28 +141,7 @@ li{margin-left:41px;}
   margin: 0 0 10px 0;
 }
 .skills-content{}
-.experiencia{
-	height: 0px;
-    margin-bottom: 54px!important;
-    float: left;
-    margin: 20px 0 20px 0;
-}
-.experiencia h3 {
-    float: left;
-    color: black;
-    font-weight: 600;
-    margin: 7px;
-    padding-top: 12px;
-    font-size: 20px;
-}
-.footer{
-	width:100%;
-    float: left;
-    text-align: right;
-    color: black;
-    text-transform: none;
-    padding: 5px 10px 10px 0;
-}
+
 .python {width: 90%; background-color: #F94903;}
 .html {width: 80%; background-color: #F94903;}
 .css {width: 60%; background-color: #F94903;}
@@ -186,21 +150,6 @@ li{margin-left:41px;}
 
 .idiomas{
  padding-top: 20px;
-}
-.botones{
-	float: left;
-}
-.button {
-    background-color: #DB0C70;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 .row{
     clear:both;
@@ -227,7 +176,7 @@ float:left;
    width:60%;
 }
 .col-md-7{
-   width:79%;
+   width:70%;
 }
 .col-md-8{
    width:80%;
@@ -247,15 +196,31 @@ img{
 }
 .triangulo {
     position: relative;
-    top: 7px;
-    left: -22px;
+    top: 36px;
+    left: 67px;
     width: 0;
     height: 0;
     border-right: 13px solid #F0F0F0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
+	/*@media(min-width:400px) and (max-width: 600px){
+		body{
+			background-color: green;
+		}
+}
 
+	@media(min-width:600px){
+		body{
+			background-color: yellow;
+		}
+}
+
+	@media(min-width:800px){
+		body{
+			background-color: red;
+		}
+}*/
 .table { display: table;width: 100%; }
 .row { display: table-row; }
 .cell { 
@@ -264,103 +229,17 @@ img{
 	border-bottom: solid 1px #F0F0F0;
 	padding-top: 10px;
  }
-
-@media(min-width:400px) and (max-width: 600px){
-	body{background-color: green;}
-	.perfil-right {
-	width: 100%;
-	width: 96%!important;
-	}
-	.contacto {
-	width: 26%;
-	height: 239px;
-	float: left;
-	display: inline-block;
-	}
-
-	.skills-content {
-	display: inline-block;
-	width: 33%;
-	float: left;
-	padding: 0 10px 0 10px;
-	}
-	.idiomas {
-	/* padding-top: 20px; */
-	display: inline-block;
-	width: 37%;
-	padding-left: 18px;
-	}
-}
-
-@media(max-width:1193px){
-	body{
-	background-color: red;
-	}
-
-	.col-md-6 {
-	width: 97%;
-
-	}
-	.Acerca {
-	width: 99%;
-	}
-	.intro {
-	width: 96%;}
-    }
-}
-@media(max-width:1195px){
-	body{
-	background-color: blue;
-	}
-	.triangulo {
-	position: relative;
-	top: 36px;
-	left: 67px;
-	width: 0;
-	height: 0;
-	border-right: 13px solid #F0F0F0;
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	}
-	.perfil-right {
-	width: 100%;
-	width: 96%!important;
-	}
-	.contacto {
-	width: 26%;
-	height: 239px;
-	float: left;
-	display: inline-block;
-	}
-
-	.skills-content {
-	display: inline-block;
-	width: 33%;
-	float: left;
-	padding: 0 10px 0 10px;
-	}
-	.idiomas {
-	display: inline-block;
-	width: 37%;
-	padding-left: 18px;
-	}
-
-}
-
 </style>
 </head>
 
 <body>
 <section class="intro">
-
 	<div class="col-md-10">
-			<div class="linea-b">
-		    <img src="images/foto.png">
-		    <h1>Mi nombre es <span>Tamara</span> y este es mi resumen</h1>
-        </div>
+	    <img src="images/foto.png">
+	    <h1>Mi nombre es <span>Tamara</span> y este es mi resumen</h1>
     </div>
 
-
+<hr>
 
 <div class="contenido">
 	<div class="perfil-left col-md-6">
@@ -374,7 +253,7 @@ img{
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	    </div>
 
-<div class="Educacion col-md-10 titulo-educacion">
+<div class="Educacion col-md-10">
 	<h2><span>// Educación</span></h2>
 </div>
 
@@ -383,9 +262,8 @@ img{
 		<div class="col-md-1 fecha"> 
 		    <h3>2012</h3>
 		</div>
-
+	<div class="triangulo"></div>
 		<div class="col-md-9 gris">
-				<div class="triangulo"></div>
 			<h3>I was born in Chile</h3> 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -398,52 +276,26 @@ img{
 		<div class="col-md-1 fecha"> 
 		    <h3>1986</h3>
 		</div>
-
+	<div class="triangulo"></div>
 		<div class="col-md-9 gris">
-				<div class="triangulo"></div>
 			<h3>I was born in Chile</h3> 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div> 
 </div>
 
-<div class="experiencia top">
+<div class="experiencia">
 	<h2><span>// Experiencia</span></h2>
 	
 </div>
 
-<div class="col-md-10 bottom">   
-	
-		<div class="col-md-2"> 
-		    <h3 class="left">GOOGLE</h3>
-		</div>
-	
-		<div class="col-md-7">
-			<h4 class="left">I was born in Chile</h4> 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-		</div> 
 
-</div> 
-
-<div class="col-md-10 bottom">   
-
-		<div class="col-md-2"> 
-		    <h3 class="left">1986</h3>
-		</div>
-	
-		<div class="col-md-7">
-			<h4 class="left">I was born in Chile</h4> 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-		</div> 
-</div>
 
 
   </div>
 
 <div class="perfil-right col-md-3">
-	<div class="contacto ">
+	<div class="contacto">
 		<h2><span>// Contacto</span></h2>
 			<ul>
 				<li>Email: tamara@itau.cl</li>
@@ -509,23 +361,11 @@ img{
 </div>
 </div>
 
-<div class="idiomas">
-	<h2><span>// Hobbiess</span></h2>
-		<div class="botones">
-			<button class="button">Fotografía</button>
-			<button class="button">Deporte</button>
-			<button class="button">Música</button>
-		</div>
-</div>
+
 
 
 </div>
 
-</div>
-<div class="footer col-md-10">
-	<div class="linea-t">
-	    <p>Curso desarrollo Frontend 2018</p>
-    </div>
 </div>
 </section>
 
